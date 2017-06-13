@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+		version="3.0"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" >
+		<display-name>ciao</display-name>
+		<servlet>
+			<servlet-name>ciao</servlet-name>
+			<servlet-class>webapp2.Servlet</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>ciao</servlet-name>
+			<url-pattern>/ciao</url-pattern>
+		</servlet-mapping>
+		
+	<servlet>
+			<servlet-name>salve</servlet-name>
+			<servlet-class>webapp2.Servlet2</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>salve</servlet-name>
+			<url-pattern>/salve</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>mps</servlet-name>
+			<servlet-class>webapp2.Servlet3</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>mps</servlet-name>
+			<url-pattern>/mps</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>cb</servlet-name>
+			<servlet-class>webapp2.Servlet4</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>cb</servlet-name>
+			<url-pattern>/cb</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>np</servlet-name>
+			<servlet-class>webapp2.NavigazionePagine</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>np</servlet-name>
+			<url-pattern>/np</url-pattern>
+		</servlet-mapping>
+	
+		<servlet>
+			<servlet-name>city</servlet-name>
+			<servlet-class>webapp2.ItaliaFranciaGermania</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>city</servlet-name>
+			<url-pattern>/city</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>country</servlet-name>
+			<servlet-class>webapp2.Country</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>country</servlet-name>
+			<url-pattern>/country</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>citta</servlet-name>
+			<servlet-class>webapp2.Città</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>citta</servlet-name>
+			<url-pattern>/citta</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>ccc</servlet-name>
+			<servlet-class>webapp2.CountryCity</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>ccc</servlet-name>
+			<url-pattern>/ccc</url-pattern>
+		</servlet-mapping>
+	</web-app>
